@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LAB10_03_2016", "LAB10_03_2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson10.03.2016", "Lesson10.03.2016\Lesson10.03.2016.csproj", "{E248C360-A61D-4194-9395-83A52487FA9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_Net-module1_2_1–lab", "CSharp_Net-module1_2_1–lab\CSharp_Net-module1_2_1–lab.csproj", "{EE2EC0F7-7F56-4718-9D81-EE4FD6BA133E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello_Operators_stud", "Hello_Operators\Hello_Operators_stud.csproj", "{A13C697D-183F-48A0-8098-0C51AB93382C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{E248C360-A61D-4194-9395-83A52487FA9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E248C360-A61D-4194-9395-83A52487FA9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E248C360-A61D-4194-9395-83A52487FA9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE2EC0F7-7F56-4718-9D81-EE4FD6BA133E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2EC0F7-7F56-4718-9D81-EE4FD6BA133E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2EC0F7-7F56-4718-9D81-EE4FD6BA133E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2EC0F7-7F56-4718-9D81-EE4FD6BA133E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A13C697D-183F-48A0-8098-0C51AB93382C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A13C697D-183F-48A0-8098-0C51AB93382C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A13C697D-183F-48A0-8098-0C51AB93382C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A13C697D-183F-48A0-8098-0C51AB93382C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
