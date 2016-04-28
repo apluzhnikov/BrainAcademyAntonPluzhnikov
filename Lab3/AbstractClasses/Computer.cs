@@ -30,6 +30,6 @@ namespace Lab3.AbstractClasses
             return string.Format("{0}: CPU - {1} cores, {2} HGz, memory - {3} GB, HDD - {4} GB", _pcType, _cpu, _power, _memory, _hdd);
         }
 
-        public abstract void testmetod();
+        //public abstract void testmetod();
     }
 }

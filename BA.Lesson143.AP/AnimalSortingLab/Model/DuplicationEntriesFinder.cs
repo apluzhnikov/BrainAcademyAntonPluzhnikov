@@ -56,7 +56,7 @@ namespace BA.Lesson143.AP.AnimalSortingLab.Model
             return distinct != allcount;*/
 
 
-            var result = list.Union(
+            //var result = list.Union(
 
             return list.Union(list).Count() != list.Count();
         }
