@@ -4,17 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D34CBBC2-8D5F-4637-9DED-BF669B0EA58E}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{F8B56D43-CA63-4D50-8897-DB741248AD1D}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Lesson18</RootNamespace>
-    <AssemblyName>Lesson18</AssemblyName>
+    <RootNamespace>UnmanageCodeLib</RootNamespace>
+    <AssemblyName>UnmanageCodeLib</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,10 +20,8 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -44,25 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="lesson1\lab1\StructPointerLab.cs" />
-    <Compile Include="lesson1\PInvokeExample.cs" />
-    <Compile Include="lesson1\PointerExample.cs" />
-    <Compile Include="lesson2\AccessControlListExample.cs" />
-    <Compile Include="lesson2\PrincipalPolicyExample.cs" />
-    <Compile Include="lesson2\SandboxingExample.cs" />
-    <Compile Include="lesson2\SecurityExample.cs" />
-    <Compile Include="lesson2\ZoneEvidenceExample.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="PInvokeExample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\UnmanageCodeLib\UnmanageCodeLib.csproj">
-      <Project>{f8b56d43-ca63-4d50-8897-db741248ad1d}</Project>
-      <Name>UnmanageCodeLib</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

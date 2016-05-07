@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace BA.Lesson16.AP.Lesson3.hhh.hhhh.koih.iygyg
+namespace BA.Lesson16.AP.Lesson3
 {
     static class TaskExample
     {

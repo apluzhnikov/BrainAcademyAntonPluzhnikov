@@ -17,7 +17,7 @@ namespace Lesson18.lesson1.lab1
 
     static class StructPointerLab
     {
-        static public unsafe void DoWork() {
+        static public unsafe void DoStructWork() {
             var myPointerStruct = new MyPointerStruct() { Id = 33, Salary = 7777777, Year = 2016 };
 
             MyPointerStruct* myPointerStruct2 = &myPointerStruct;

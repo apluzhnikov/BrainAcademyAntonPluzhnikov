@@ -4,10 +4,9 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Security;
 using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
 
-namespace Lesson18.lesson1
+namespace UnmanageCodeLib
 {
     [StructLayout(LayoutKind.Sequential)]
     public struct Point
@@ -17,7 +16,7 @@ namespace Lesson18.lesson1
     }
 
     [SecurityCritical]
-    static class PInvokeExample
+    public class PInvokeExample : MarshalByRefObject
     {
         [DllImport("user32.dll")]
         static extern long SetCursorPos(int x, int y);
@@ -31,7 +30,7 @@ namespace Lesson18.lesson1
         private const int MOUSEEVENTF_LEFTDOWN = 0x02;
         private const int MOUSEEVENTF_LEFTUP = 0x04;
 
-        public static void DoInvokeWork() {
+        public void DoInvokeWork() {
             /*Thread.Sleep(1000);
             SetCursorPos(300, 200);*/
 
