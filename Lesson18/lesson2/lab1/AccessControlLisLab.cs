@@ -18,9 +18,21 @@ namespace Lesson18.lesson2.lab1
                 var fileSecurity = fileStream.GetAccessControl();                
                 //var rules = fileSecurity.GetAccessRules(true, true, typeof(NTAccount));
                 var rules = fileSecurity.GetAccessRules(true, true, typeof(SecurityIdentifier));
-                //rules = fileSecurity.gets(true, true, typeof(SecurityIdentifier));
+                var auditRules = fileSecurity.GetAuditRules(true, true, typeof(SecurityIdentifier));
 
                 foreach (var rule in rules)
+                {
+                    var fileRule = rule as FileSystemAccessRule;
+                    Console.WriteLine($"Access type: {fileRule.AccessControlType}");
+                    Console.WriteLine($"Rights: {fileRule.FileSystemRights}");
+                    Console.WriteLine($"Identity: {fileRule.IdentityReference}");
+
+                    Console.WriteLine();
+                }
+
+                Console.WriteLine("Audit rules");
+
+                foreach (var rule in auditRules)
                 {
                     var fileRule = rule as FileSystemAccessRule;
                     Console.WriteLine($"Access type: {fileRule.AccessControlType}");

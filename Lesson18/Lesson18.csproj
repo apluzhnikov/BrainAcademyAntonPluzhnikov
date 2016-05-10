@@ -53,6 +53,8 @@
     <Compile Include="lesson2\SandboxingExample.cs" />
     <Compile Include="lesson2\SecurityExample.cs" />
     <Compile Include="lesson2\ZoneEvidenceExample.cs" />
+    <Compile Include="lesson3\Crypto.cs" />
+    <Compile Include="lesson3\lab1\CryptoLab.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
