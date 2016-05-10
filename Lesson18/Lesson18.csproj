@@ -48,6 +48,7 @@
     <Compile Include="lesson1\PInvokeExample.cs" />
     <Compile Include="lesson1\PointerExample.cs" />
     <Compile Include="lesson2\AccessControlListExample.cs" />
+    <Compile Include="lesson2\lab1\AccessControlLisLab.cs" />
     <Compile Include="lesson2\PrincipalPolicyExample.cs" />
     <Compile Include="lesson2\SandboxingExample.cs" />
     <Compile Include="lesson2\SecurityExample.cs" />
@@ -58,6 +59,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\UnmanageCodeLib\UnmanageCodeLib.csproj">
       <Project>{f8b56d43-ca63-4d50-8897-db741248ad1d}</Project>
