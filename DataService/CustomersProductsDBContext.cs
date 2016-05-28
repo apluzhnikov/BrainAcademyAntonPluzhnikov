@@ -27,9 +27,6 @@ namespace DataService
         protected override void OnModelCreating(DbModelBuilder modelBuilder) {
             base.OnModelCreating(modelBuilder);
 
-            /*modelBuilder.Entity<Currency>().HasKey(i => i.Id).Property(i=>i.Id).HasColumnName("CurrencyId");
-            modelBuilder.Entity<Currency>().Property(i => i.Name).HasMaxLength(3).IsRequired().IsUnicode();*/
-
             modelBuilder.Configurations.Add(new ProductConfig());
             modelBuilder.Configurations.Add(new CustomerConfig());
             modelBuilder.Configurations.Add(new CustomersProductsConfig());
